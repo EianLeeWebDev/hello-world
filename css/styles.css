@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("../images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  background-color: #674baf;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 55px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #674baf;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.logo {
+  padding: 40px;
+}
+
+.mockups {
+  float: left;
+  padding: 40px;
+}
+
+.message {
+  display: table;
+  padding: 40px;
+}
+
+.socialMedia {
+  display:flex; justify-content:flex-end; align-items:flex-end;
+  padding: 40px;
+}
+
+.socialMedia a {
+  margin: 5px;
+  font-size:1em;
+  border-radius: 50%;
+  border: solid white;
+  color: white;
+  line-height: 2em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  display: inline-block;
+    transition:0.5s;
+}
+
+
+@media only screen and (max-width: 1075px) {
+  body {
+    background-image: none;
+  }
+
+  .message {
+    text-align: center;
+  }
+
+  .container {
+    overflow: auto;
+    background-image: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .socialMedia {
+    display:flex; justify-content:center; align-items:flex-end;
+  }
+
+}
